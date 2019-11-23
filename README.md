@@ -36,14 +36,14 @@ Example of continuous results:
 Classroom	Lecuturer	InSession	Students	Visitors
 ==================================================================================
 
-W201	Osama	True	50	3
-W202	Alex	True	55	1
-W101	Faheem	True	15	0
-W102		False		
-W201	Waseem	True	54	5
-W202	Aqeel	True	43	2
-W101	Osama	True	18	1
-W102	Barry	True	25	2
+W201	    Osama	    True	    50	      3
+W202	    Alex	    True	    55	      1
+W101	    Faheem	  True	    15	      0
+W102		            False		
+W201	    Waseem	  True	    54	      5
+W202	    Aqeel	    True	    43	      2
+W101	    Osama	    True	    18	      1
+W102	    Barry	    True	    25	      2
 
 
 Execution Steps:
