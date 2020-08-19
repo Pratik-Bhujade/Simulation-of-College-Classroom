@@ -52,11 +52,12 @@ Classroom	Lecuturer	InSession	Students	Visitors
   ```shell
    $ javac [java_file_name].java
   ```
-  For eg:
+    For eg:
     ```shell
-   $ javac Visitor.java
-  ```
+     $ javac Visitor.java
+    ```
   2. Run College class file.
+  
   ```shell
    $ java College
   ```
