@@ -6,8 +6,8 @@ When the Lecturer is in the classroom, no one may enter, and the students may no
 Once all students check in, the Lecturer can StartLecture. After some time, the Lecturer leaves and all students can leave.
 
 
-To make these requirements more speciﬁc, let’s give the threads some functions to execute, and
-put constraints on those functions.
+To make these requirements more speciﬁc, threads have some functions to execute, and
+constraints on those functions like.
 •students must invoke enter, sitDown, and leave.
 •The Lecturer invokes enter, startLecture and leave.
 •visitors invoke enter, sitDown and leave.
@@ -47,16 +47,17 @@ Classroom	Lecuturer	InSession	Students	Visitors
 | W101 | Osama | True | 18 | 1 |
 | W102 | Barry | True | 25 | 2 |
 
+# Steps To execute
+  1. Compile the all the java files.
+  ```shell
+   $ javac [java_file_name].java
+  ```
+  For eg:
+    ```shell
+   $ javac Visitor.java
+  ```
+  2. Run College class file.
+  ```shell
+   $ java College
+  ```
 
-
-
-
-
-Execution Steps:
-[1] javac Vistor.java
-[2] javac Monitor.java
-[3] javac Classroom.java
-[4] javac Lecturer.java
-[5] javac Student.java
-[6] javac College.java
-[7] java College
